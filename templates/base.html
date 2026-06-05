@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Sewanee PathCheck{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="{{ url_for('index') }}"><span class="brand-name">Sewanee PathCheck</span></a>
+      <img class="header-logo" src="{{ url_for('static', filename='sewanee-logo.png') }}" alt="Sewanee logo" onerror="this.style.display='none';">
+      <div class="header-actions">
+        <a class="browse-link" href="https://new.sewanee.edu/programs-of-study/" target="_blank" rel="noopener">Browse Programs</a>
+        <div class="role-switcher" aria-label="User view switcher">
+          <span>View as</span>
+          <div class="role-options">
+            <a href="{{ url_for('index') }}" class="{% if active_page == 'student' %}active{% endif %}">Student</a>
+            <a href="{{ url_for('advisor') }}" class="{% if active_page == 'advisor' %}active{% endif %}">Advisor</a>
+            <a href="{{ url_for('department_chair') }}" class="{% if active_page == 'chair' %}active{% endif %}">Department Chair</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="page-wrapper">{% block content %}{% endblock %}</main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-label">By:</span>
+      <span class="footer-names">Safae Berhanich, Karim Morgan</span>
+      <span class="footer-course">CS284</span>
+    </div>
+  </footer>
+</body>
+</html>

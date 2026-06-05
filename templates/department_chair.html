@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Sewanee PathCheck | Department Chair View{% endblock %}
+{% block content %}
+<section class="hero">
+  <h1>Department overlap signals.</h1>
+  <div class="gold-divider" aria-hidden="true"></div>
+  <p>This view shows courses owned by a selected department that appear as core requirements in three or more programs.</p>
+</section>
+<section class="checker-shell chair-form">
+  <form class="checker-card" method="get" action="{{ url_for('department_chair') }}">
+    <h2>Choose a Department</h2>
+    <p class="form-note">Select a department to see courses that may create repeated overlap conflicts.</p>
+    <div class="form-group">
+      <label for="dept">Department</label>
+      <select id="dept" name="dept" required>
+        <option value="">Select a department</option>
+        {% for d in departments %}
+          <option value="{{ d[0] }}" {% if dept_id == d[0] %}selected{% endif %}>{{ d[1] }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <button class="full-width" type="submit">View Department Courses</button>
+  </form>
+</section>
+{% if selected_dept %}
+<section class="dashboard-card"><h2>{{ selected_dept }}</h2><p class="form-note">Courses below appear as core requirements in at least three loaded programs.</p></section>
+<section class="table-wrap">
+  <table>
+    <thead><tr><th>Course</th><th>Title</th><th>Programs</th><th>Where It Appears</th></tr></thead>
+    <tbody>
+    {% for c in hot_courses %}
+      <tr><td><strong>{{ c[0] }}</strong></td><td>{{ c[1] }}</td><td class="danger-cell">{{ c[2] }}</td><td>{{ c[3] }}</td></tr>
+    {% else %}
+      <tr><td colspan="4">No courses in this department currently meet the 3+ program threshold.</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endif %}
+{% endblock %}

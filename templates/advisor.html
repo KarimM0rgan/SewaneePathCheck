@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Sewanee PathCheck | Advisor View{% endblock %}
+{% block content %}
+<section class="hero">
+  <h1>Advisor overlap review.</h1>
+  <div class="gold-divider" aria-hidden="true"></div>
+  <p>This view lists every loaded program pair whose core requirements share more than two courses, ordered from most overlap to least overlap.</p>
+</section>
+<section class="dashboard-grid">
+  <div class="metric-card"><div class="metric-number">{{ total_programs }}</div><div class="metric-label">programs in database</div></div>
+  <div class="metric-card"><div class="metric-number">{{ total_pairs }}</div><div class="metric-label">possible pairs</div></div>
+  <div class="metric-card"><div class="metric-number">{{ conflict_count }}</div><div class="metric-label">over-limit pairs</div></div>
+</section>
+<section class="dashboard-card">
+  <h2>High-Risk Program Pairs</h2>
+  <p class="form-note">These are the combinations advisors may want to flag during registration or degree planning.</p>
+</section>
+<section class="table-wrap">
+  <table>
+    <thead><tr><th>Program 1</th><th>Program 2</th><th>Shared Core Courses</th></tr></thead>
+    <tbody>
+      {% for pair in conflict_pairs %}
+        <tr><td>{{ pair[0] }}</td><td>{{ pair[1] }}</td><td class="danger-cell">{{ pair[2] }}</td></tr>
+      {% else %}
+        <tr><td colspan="3">No over-limit program pairs were found from the currently loaded core requirement data.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

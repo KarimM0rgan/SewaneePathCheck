@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Sewanee PathCheck{% endblock %}
+{% block content %}
+<section class="hero">
+  <h1>Easily check if your choices overlap.</h1>
+  <div class="gold-divider" aria-hidden="true"></div>
+</section>
+<section class="checker-shell">
+  <form class="checker-card" method="post" action="{{ url_for('results') }}">
+    <h2>Check Program Overlap</h2>
+    <p class="form-note">
+      Choose two programs. If a program says its data failed to load, double-check the official
+      <a href="https://e-catalog.sewanee.edu/arts-sciences/degrees/majors/" target="_blank" rel="noopener">major requirements page</a>
+      or
+      <a href="https://e-catalog.sewanee.edu/arts-sciences/degrees/minors-certificates-curricular-study/" target="_blank" rel="noopener">minor requirements page</a>.
+    </p>
+    <div class="form-grid">
+      <div class="form-group">
+        <label for="program1">Program 1</label>
+        <select id="program1" name="program1" required>
+          <option value="">Select a program</option>
+          {% for p in programs %}
+            <option value="{{ p[2] }}-{{ p[0] }}" {% if p[3] == 0 %}disabled{% endif %}>
+              {{ p[1] }}{% if p[3] == 0 %} - data failed to load, double-check requirements page!{% endif %}
+            </option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="program2">Program 2</label>
+        <select id="program2" name="program2" required>
+          <option value="">Select a program</option>
+          {% for p in programs %}
+            <option value="{{ p[2] }}-{{ p[0] }}" {% if p[3] == 0 %}disabled{% endif %}>
+              {{ p[1] }}{% if p[3] == 0 %} - data failed to load, double-check requirements page!{% endif %}
+            </option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+    <button class="full-width" type="submit">Check Overlap</button>
+  </form>
+</section>
+{% endblock %}

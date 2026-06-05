@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block title %}Sewanee PathCheck | Results{% endblock %}
+{% block content %}
+<section class="hero">
+  <h1>Overlap Results</h1>
+  <div class="gold-divider" aria-hidden="true"></div>
+</section>
+{% if error %}
+<section class="result-card">
+  <div class="status-banner exceeds">
+    <div class="status-icon exceeds" aria-hidden="true">!</div>
+    <div>
+        <h2>Please try again</h2>
+        <p>{{ error }}</p>
+        <p>
+          Official catalog:
+          <a href="https://e-catalog.sewanee.edu/arts-sciences/degrees/majors/" target="_blank" rel="noopener">major requirements</a>
+          |
+          <a href="https://e-catalog.sewanee.edu/arts-sciences/degrees/minors-certificates-curricular-study/" target="_blank" rel="noopener">minor requirements</a>
+        </p>
+      </div>
+  </div>
+  <a class="button" href="{{ url_for('index') }}">Back to checker</a>
+</section>
+{% else %}
+<section class="result-card">
+  <div class="status-banner {% if verdict_key == 'exceeds' %}exceeds{% else %}allowed{% endif %}">
+    <div class="status-icon {% if verdict_key == 'exceeds' %}exceeds{% else %}allowed{% endif %}" aria-hidden="true">{% if verdict_key == 'exceeds' %}!{% else %}✓{% endif %}</div>
+    <div>
+      <h2>{{ p1[1] }} + {{ p2[1] }}</h2>
+      <p>{% if verdict_key == 'exceeds' %}<span class="overlimit">{{ verdict }}</span>{% else %}<span class="allowed-text">{{ verdict }}</span>{% endif %}</p>
+    </div>
+  </div>
+  <div class="notice">{{ count_note }}</div>
+
+  <h3>Core-to-Core Overlaps</h3>
+  {% if core_overlaps %}
+    <ul class="simple-list">{% for c in core_overlaps %}<li><strong>{{ c[0] }}</strong> — {{ c[1] }}</li>{% endfor %}</ul>
+  {% else %}
+    <p>No direct shared core courses found.</p>
+  {% endif %}
+
+  {% if elective_or_alternative_overlaps %}
+    <h3>Elective / Alternative Shared Courses</h3>
+    <ul class="simple-list">
+      {% for r in elective_or_alternative_overlaps %}
+        <li><strong>{{ r[0] }}</strong> — {{ r[1] }} ({{ r[2] }} / {{ r[3] }})</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if equiv_overlaps %}
+    <h3>Same-Requirement / Equivalent Overlaps</h3>
+    <ul class="simple-list">
+      {% for e in equiv_overlaps %}
+        <li><strong>{{ e[0] }}</strong> — {{ e[1] }} overlaps with <strong>{{ e[2] }}</strong> — {{ e[3] }}.<br><em>{{ e[4] }}</em></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <a class="button" href="{{ url_for('index') }}">Check another pair</a>
+</section>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Sewanee PathCheck | Loaded Data{% endblock %}
+{% block content %}
+<section class="hero"><h1>Loaded program data.</h1><div class="gold-divider" aria-hidden="true"></div><p>This internal page shows all programs and how many requirement rows are currently loaded.</p></section>
+<section class="checker-shell">
+  <form class="checker-card" method="get" action="{{ url_for('programs') }}">
+    <h2>Search Loaded Programs</h2>
+    <p class="form-note">Use this to check what catalog_programs.py loaded.</p>
+    <div class="form-group"><label for="q">Search</label><input id="q" name="q" type="search" value="{{ search }}" placeholder="Example: economics|biology"></div>
+    <button class="full-width" type="submit">Search</button>
+  </form>
+</section>
+{% if regex_error %}<section class="result-card"><div class="notice">{{ regex_error }}</div></section>{% endif %}
+<section class="table-wrap">
+  <table>
+    <thead><tr><th>Program</th><th>Type</th><th>Requirement Rows Loaded</th></tr></thead>
+    <tbody>
+      {% for p in programs %}
+        <tr><td>{{ p[1] }}</td><td>{{ p[2] }}</td><td>{{ p[3] }}</td></tr>
+      {% else %}
+        <tr><td colspan="3">No programs found.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

@@ -1,0 +1,525 @@
+Sewanee PathCheck catalog loader report:
+
+African and African American Studies Minor (minor)
+  status: NO_REQUIREMENTS_FOUND
+  scraped course rows: 0
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/african-and-african-american-studies/#minortext
+
+American Studies Major (major)
+  status: OK
+  scraped course rows: 6
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/american-studies/#majorstext
+
+Anthropology Major (major)
+  status: OK
+  scraped course rows: 6
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/anthropology/#majorstext
+
+Anthropology Minor (minor)
+  status: OK
+  scraped course rows: 3
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/anthropology/#minorstext
+
+Art Major (major)
+  status: OK
+  scraped course rows: 2
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/art-art-history-visual-studies/art-major/
+
+Art Minor (minor)
+  status: NO_REQUIREMENTS_FOUND
+  scraped course rows: 0
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/art-art-history-visual-studies/art-minor/
+
+Art History Major (major)
+  status: OK
+  scraped course rows: 30
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/art-art-history-visual-studies/art-history-major/
+
+Art History Minor (minor)
+  status: OK
+  scraped course rows: 4
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/art-art-history-visual-studies/art-history-minor/
+
+Asian Studies Major (major)
+  status: OK
+  scraped course rows: 2
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/asian-studies/#majorstext
+
+Asian Studies Minor (minor)
+  status: NO_REQUIREMENTS_FOUND
+  scraped course rows: 0
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/asian-studies/#minorstext
+
+Biochemistry Major (major)
+  status: OK
+  scraped course rows: 33
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/biochemistry/#majorstext
+
+Biology Major (major)
+  status: NO_REQUIREMENTS_FOUND
+  scraped course rows: 0
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/biology/#majorstext
+
+Biology Minor (minor)
+  status: OK
+  scraped course rows: 2
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/biology/#minorstext
+
+Business Minor (minor)
+  status: OK
+  scraped course rows: 5
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/business/#minorstext
+
+Chemistry Major (major)
+  status: OK
+  scraped course rows: 20
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/chemistry/#majorstext
+
+Chemistry Minor (minor)
+  status: OK
+  scraped course rows: 4
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/chemistry/#minorstext
+
+Chinese Studies Minor (minor)
+  status: OK
+  scraped course rows: 14
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/chinese/#minorstext
+
+Classical Languages Major (major)
+  status: OK
+  scraped course rows: 4
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/classics/classical-languages-major/
+
+Classical Languages Minor (minor)
+  status: OK
+  scraped course rows: 4
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/classics/classical-languages-minor/
+
+Computer Science Major (major)
+  status: OK
+  scraped course rows: 13
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/mathematics-computer-science/computer-science-major/
+
+Computer Science Minor (minor)
+  status: OK
+  scraped course rows: 2
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/mathematics-computer-science/computer-science-minor/
+
+Creative Writing Major (major)
+  status: NO_REQUIREMENTS_FOUND
+  scraped course rows: 0
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/english/#majorstext
+
+Dance Minor (minor)
+  status: OK
+  scraped course rows: 6
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/theatre-dance/dance-minor/
+
+Data Science Major (major)
+  status: NO_REQUIREMENTS_FOUND
+  scraped course rows: 0
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/mathematics-computer-science/#majorstext
+
+Data Science Minor (minor)
+  status: OK
+  scraped course rows: 13
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/mathematics-computer-science/data-science-minor/
+
+Economics Major (major)
+  status: OK
+  scraped course rows: 10
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/economics/economics-major/
+
+Economics Minor (minor)
+  status: OK
+  scraped course rows: 3
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/economics/#minorstext
+
+English Major (major)
+  status: NO_REQUIREMENTS_FOUND
+  scraped course rows: 0
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/english/#majorstext
+
+Environment and Sustainability Major (major)
+  status: OK
+  scraped course rows: 12
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/earth-environmental-systems/environment-sustainability-major/
+
+Environmental Arts and Humanities Major (major)
+  status: OK
+  scraped course rows: 75
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/environmental-studies/environmental_arts_and_humanities_major/
+
+Environmental Studies Minor (minor)
+  status: OK
+  scraped course rows: 91
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/earth-environmental-systems/environmental-studies-minor/
+
+Film Studies Minor (minor)
+  status: OK
+  scraped course rows: 20
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/art-art-history-visual-studies/film-studies-minor/
+
+Finance Major (major)
+  status: OK
+  scraped course rows: 21
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/economics/finance-major/
+
+Forestry Major (major)
+  status: OK
+  scraped course rows: 16
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/earth-environmental-systems/forestry-major/
+
+Forestry Minor (minor)
+  status: OK
+  scraped course rows: 6
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/earth-environmental-systems/forestry-minor/
+
+French and French Studies Major (major)
+  status: OK
+  scraped course rows: 13
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/french-french-studies/#majorstext
+
+French and French Studies Minor (minor)
+  status: OK
+  scraped course rows: 12
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/french-french-studies/#minorstext
+
+Geology Major (major)
+  status: OK
+  scraped course rows: 29
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/earth-environmental-systems/geology-major/
+
+Geology Minor (minor)
+  status: OK
+  scraped course rows: 1
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/earth-environmental-systems/geology-minor/
+
+German and German Studies Major (major)
+  status: NO_REQUIREMENTS_FOUND
+  scraped course rows: 0
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/german-german-studies/#majorstext
+
+German and German Studies Minor (minor)
+  status: OK
+  scraped course rows: 32
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/german-german-studies/#minorstext
+
+Greek Major (major)
+  status: OK
+  scraped course rows: 4
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/classics/greek-major/
+
+Greek Minor (minor)
+  status: NO_REQUIREMENTS_FOUND
+  scraped course rows: 0
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/classics/greek-minor/
+
+History Major (major)
+  status: OK
+  scraped course rows: 2
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/history/#majorstext
+
+History Minor (minor)
+  status: OK
+  scraped course rows: 5
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/history/#minorstext
+
+Humanities Minor (minor)
+  status: OK
+  scraped course rows: 2
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/humanities/#minorstext
+
+International and Global Studies Major (major)
+  status: OK
+  scraped course rows: 2
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/international-global-studies/#majorstext
+
+International and Global Studies Minor (minor)
+  status: OK
+  scraped course rows: 2
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/international-global-studies/#minorstext
+
+Italian Studies Minor (minor)
+  status: OK
+  scraped course rows: 12
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/spanish-italian/italian-minor/
+
+Latin Major (major)
+  status: OK
+  scraped course rows: 4
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/classics/latin-major/
+
+Latin Minor (minor)
+  status: NO_REQUIREMENTS_FOUND
+  scraped course rows: 0
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/classics/latin-minor/
+
+Latin American and Latinx Studies Minor (minor)
+  status: OK
+  scraped course rows: 52
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/spanish-italian/latin-american-latinx-studies/
+
+Mathematics Major (major)
+  status: OK
+  scraped course rows: 6
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/mathematics-computer-science/mathematics-major/
+
+Mathematics Minor (minor)
+  status: OK
+  scraped course rows: 3
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/mathematics-computer-science/mathematics-minor/
+
+Medieval and Early Modern Studies Major (major)
+  status: OK
+  scraped course rows: 56
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/medieval-studies/#majorstext
+
+Medieval and Early Modern Studies Minor (minor)
+  status: OK
+  scraped course rows: 3
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/medieval-studies/#minorstext
+
+Music Major (major)
+  status: NO_REQUIREMENTS_FOUND
+  scraped course rows: 0
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/music/#majorstext
+
+Music Minor (minor)
+  status: OK
+  scraped course rows: 7
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/music/#minorstext
+
+Natural Resources Major (major)
+  status: OK
+  scraped course rows: 5
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/earth-environmental-systems/natural-resources-environment-major/
+
+Neuroscience Major (major)
+  status: OK
+  scraped course rows: 44
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/neuroscience/#majorstext
+
+Neuroscience Minor (minor)
+  status: OK
+  scraped course rows: 40
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/neuroscience/#minorstext
+
+Philosophy Major (major)
+  status: OK
+  scraped course rows: 5
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/philosophy/#majorstext
+
+Philosophy Minor (minor)
+  status: OK
+  scraped course rows: 1
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/philosophy/#minorstext
+
+Physics Major (major)
+  status: OK
+  scraped course rows: 5
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/physics-astronomy/#majorstext
+
+Physics and Astronomy Minor (minor)
+  status: OK
+  scraped course rows: 9
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/physics-astronomy/#minorstext
+
+Politics Major (major)
+  status: OK
+  scraped course rows: 66
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/politics/#majorstext
+
+Politics Minor (minor)
+  status: OK
+  scraped course rows: 2
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/politics/#minorstext
+
+Psychology Major (major)
+  status: OK
+  scraped course rows: 41
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/psychology/#majorstext
+
+Psychology Minor (minor)
+  status: OK
+  scraped course rows: 4
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/psychology/#minorstext
+
+Religion and Environment Minor (minor)
+  status: OK
+  scraped course rows: 29
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/environmental-studies/religion_and_environment_minor/
+
+Religious Studies Major (major)
+  status: OK
+  scraped course rows: 1
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/religious-studies/#majortext
+
+Religious Studies Minor (minor)
+  status: NO_REQUIREMENTS_FOUND
+  scraped course rows: 0
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/religious-studies/#minortext
+
+Rhetoric Major (major)
+  status: OK
+  scraped course rows: 4
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/rhetoric/#majortext
+
+Rhetoric Minor (minor)
+  status: OK
+  scraped course rows: 2
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/rhetoric/#minortext
+
+Russian Major (major)
+  status: OK
+  scraped course rows: 24
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/russian/#majorstext
+
+Russian Minor (minor)
+  status: OK
+  scraped course rows: 11
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/russian/#minorstext
+
+Shakespeare Studies Minor (minor)
+  status: OK
+  scraped course rows: 39
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/shakespeare-studies/#minorstext
+
+Southern Appalachian Studies Minor (minor)
+  status: OK
+  scraped course rows: 18
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/southern-appalachian-place-based-studies/#minorstext
+
+Spanish Major (major)
+  status: OK
+  scraped course rows: 5
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/spanish-italian/#majorstext
+
+Spanish Minor (minor)
+  status: OK
+  scraped course rows: 4
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/spanish-italian/spanish-minor/
+
+Theatre Major (major)
+  status: OK
+  scraped course rows: 11
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/theatre-dance/#majortext
+
+Theatre Minor (minor)
+  status: OK
+  scraped course rows: 7
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/theatre-dance/theatre-arts-minor/
+
+Women's and Gender Studies Major (major)
+  status: OK
+  scraped course rows: 5
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/womens-gender-studies/#majorstext
+
+Women's and Gender Studies Minor (minor)
+  status: OK
+  scraped course rows: 4
+  inserted new rows: 0
+  source: https://e-catalog.sewanee.edu/arts-sciences/departments-interdisciplinary-programs/womens-gender-studies/#minorstext
+
+
+Validation checks
+-----------------
+OK: Economics Major: 17 rows loaded (expected at least 7)
+OK: Economics Minor: 14 rows loaded (expected at least 4)
+OK: Computer Science Major: 15 rows loaded (expected at least 7)
+OK: Computer Science Minor: 7 rows loaded (expected at least 2)
+OK: Data Science Major: 17 rows loaded (expected at least 7)
+OK: Data Science Minor: 13 rows loaded (expected at least 4)
+OK: Mathematics Major: 10 rows loaded (expected at least 6)
+OK: Mathematics Minor: 9 rows loaded (expected at least 3)
+CHECK: Biology Major: 0 rows loaded (expected at least 2)
+OK: Biology Minor: 2 rows loaded (expected at least 2)
+OK: Psychology Major: 41 rows loaded (expected at least 4)
+OK: Psychology Minor: 4 rows loaded (expected at least 3)
+OK: Politics Major: 66 rows loaded (expected at least 4)
+CHECK: Politics Minor: 2 rows loaded (expected at least 3)
+CHECK: English Major: 0 rows loaded (expected at least 3)
+OK: Chemistry Major: 20 rows loaded (expected at least 4)
